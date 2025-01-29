@@ -5,11 +5,11 @@ let tekst = document.querySelector('.tekst p');
 let selectedBtn;
 
 btn.forEach((element) => {
-    element.addEventListener('click', (event) => {
-        btn.forEach((el) => el.classList.remove('feedback'))
-        element.classList.add('feedback'); 
+    element.addEventListener('click', (event) => { 
         selectedBtn = event.target.id;
-        
+        btn.forEach((el) => el.classList.remove('background'))
+        element.classList.add('background');
+
         if(selectedBtn === 'history'){
             title.innerHTML = 'History';
             tekst.innerHTML = "I'm baby wolf pickled schlitz try-hard normcore marfa man bun mumblecore vice pop-up XOXO lomo kombucha glossier bicycle rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard tilde try-hard, woke fixie banjo man bun. Small batch tumeric mustache tbh wayfarers 8-bit shaman chartreuse tacos. Viral direct trade hoodie ugh chambray, craft beer pork belly flannel tacos single-origin coffee art party migas plaid pop-up.";
@@ -24,3 +24,4 @@ btn.forEach((element) => {
         }
     })
 })
+

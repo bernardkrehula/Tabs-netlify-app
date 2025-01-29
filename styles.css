@@ -3,15 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: rgb(236, 247, 252);
+}
 .main {
     margin: 100px auto;
+    color: hsl(209, 61%, 16%);
+    font-family: Arial, Helvetica, sans-serif;
 }
 .title {
     text-align: center;
 }
+.title h1 {
+    font-size: 40px;
+}
+.title h3 {
+    font-size: 17px;
+    color: #65909b;
+}
 .main img {
     border-radius: 10px;
-    height: 320px;
+    height: 300px;
     width: 800px;
     object-fit: cover;
 }
@@ -19,30 +31,40 @@
     margin-top: 12px;
     margin-bottom: 50px;
 }
+.content {
+    margin: 20px auto;
+    width: 800px;
+    
+}
 .btn {
     display: flex;
+    border-radius: 20px;
+    background-color: rgb(224, 235, 255);
 }
 .btn button {
     border: none;
-    background-color: #a5ccdf;
     padding: 15px 20px;
     flex-grow: 1;
     font-size: 18px;
 }
 .btn button:hover {
-    background-color: rgb(62, 238, 238);
+    background-color: rgb(187, 228, 255);
     transition: 0.4s ease-in-out;
+    color: #65909b;
 }
-.content {
-    margin: 20px auto;
-    border-radius: 10px;
-    width: 800px;
+.background {
+    background-color: rgb(255, 255, 255);
 }
 .tekst {
-    padding: 10px 20px;
+    padding: 20px 20px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+    border-radius: 0px 0 10px 10px;
+    letter-spacing: 0.2px;
+    line-height: 23px;
 }
 .tekst h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     word-spacing: 2rem;
 }
 .tekst p {
