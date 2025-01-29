@@ -4,6 +4,47 @@
     box-sizing: border-box;
 }
 .main {
+    margin: 100px auto;
+}
+.title {
     text-align: center;
-    margin: 400px auto;
+}
+.main img {
+    border-radius: 10px;
+    height: 320px;
+    width: 800px;
+    object-fit: cover;
+}
+.main h3 {
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+.btn {
+    display: flex;
+}
+.btn button {
+    border: none;
+    background-color: #a5ccdf;
+    padding: 15px 20px;
+    flex-grow: 1;
+    font-size: 18px;
+}
+.btn button:hover {
+    background-color: rgb(62, 238, 238);
+    transition: 0.4s ease-in-out;
+}
+.content {
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 800px;
+}
+.tekst {
+    padding: 10px 20px;
+}
+.tekst h1 {
+    font-size: 2rem;
+    word-spacing: 2rem;
+}
+.tekst p {
+    margin-top: 10px;
 }
