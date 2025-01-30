@@ -26,7 +26,7 @@ btn.forEach((element, index) => {
         btn.forEach((el) => el.classList.remove('background'))
         element.classList.add('background');
         activeIndex = index;
-        setText()
+        setText();
     })
 })
 
